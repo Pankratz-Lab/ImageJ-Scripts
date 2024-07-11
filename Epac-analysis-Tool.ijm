@@ -53,8 +53,8 @@ for (i=0; i<roiManager("count");i++){
 		}
 	
 	
-	cyan = getResult("Mean", 0);
-	yellow = getResult("Mean", 1);
+	yellow = getResult("Mean", 0);
+	cyan = getResult("Mean", 1);
 	
 	name = "[Final Results]";
 	name2 ="Final Results";
@@ -65,10 +65,10 @@ for (i=0; i<roiManager("count");i++){
 	else {
 	    run("New... ", "name="+name+" type=Table");
 	    print(f, "\\Clear");
-	    print(f, "\\Headings: yellow	cyan	Ratio");
+	    print(f, "\\Headings: cyan	yellow	Ratio");
 	   }
 	
-		ratio = yellow/cyan;
+		ratio = cyan/yellow;
 		ratio  = toString(ratio );
 		ratio  = replace(ratio , "\\.","\\,");
 		
