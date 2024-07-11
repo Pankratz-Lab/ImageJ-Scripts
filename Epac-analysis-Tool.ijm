@@ -53,8 +53,8 @@ for (i=0; i<roiManager("count");i++){
 		}
 	
 	
-	yellow = getResult("Mean", 0);
-	cyan = getResult("Mean", 1);
+	cyan = getResult("Mean", 0);
+	yellow = getResult("Mean", 1);
 	
 	name = "[Final Results]";
 	name2 ="Final Results";
